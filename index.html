@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(80, 80, 233);
+            text-align: center;
+        }
+        #afi {
+            top: 20%;
+            left: 45%;
+            position: absolute;
+        }
+        #bt1 {
+            border: none;
+            border-radius: 30px;
+            height: 50px;
+            width: 50px;
+            font-weight: bolder;
+            font-size: 20pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: rgb(45, 15, 126);
+            cursor: pointer;
+        }
+        #bt2 {
+            border: none;
+            border-radius: 30px;
+            height: 50px;
+            width: 50px;
+            font-weight: bolder;
+            font-size: 20pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: rgb(45, 15, 126);
+            cursor: pointer;
+            
+        }
+        #bt3 {
+            border: none;
+            border-radius: 30px;
+            height: 50px;
+            width: 50px;
+            font-weight: bolder;
+            font-size: 20pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: rgb(45, 15, 126);
+            cursor: pointer;
+
+        }
+        #bt4 {
+            border: none;
+            border-radius: 30px;
+            height: 50px;
+            width: 50px;
+            font-weight: bolder;
+            font-size: 20pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: rgb(45, 15, 126);
+            cursor: pointer;
+
+        }
+        #bt5 {
+            border: none;
+            border-radius: 30px;
+            height: 50px;
+            width: 50px;
+            font-weight: bolder;
+            font-size: 20pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: rgb(45, 15, 126);
+            cursor: pointer;
+
+        }
+        #bt6 {
+            border: none;
+            border-radius: 30px;
+            height: 50px;
+            width: 50px;
+            font-weight: bolder;
+            font-size: 20pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: rgb(45, 15, 126);
+            cursor: pointer;
+
+        }
+    </style>
+    <title>Afinador</title>
+</head>
+<body>
+    <div id="afi">
+        <audio id="audio1" src="corda1.ogg"></audio>
+        <audio id="audio2" src="corda2.ogg"></audio>
+        <audio id="audio3" src="corda3.ogg"></audio>
+        <audio id="audio4" src="corda4.ogg"></audio>
+        <audio id="audio5" src="corda5.ogg"></audio>
+        <audio id="audio6" src="corda6.ogg"></audio>
+        <table>
+            
+            <tr>
+                <td><button id="bt1">E</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button id="bt2">B</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button id="bt3">G</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button id="bt4">D</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button id="bt5">A</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button id="bt6">E</button></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        const button1 = document.querySelector('button#bt1');
+        button1.addEventListener('click', ()=>{
+            const audio1 = document.querySelector('audio#audio1');
+            audio1.play();
+        })
+
+        const button2 = document.querySelector('button#bt2');
+        button2.addEventListener('click', function(){
+            const audio2 = document.querySelector('audio#audio2');
+            audio2.play();
+        })
+
+        const button3 = document.querySelector('button#bt3');
+        button3.addEventListener('click', function(){
+            const audio3 = document.querySelector('audio#audio3');
+            audio3.play();
+        })
+
+        const button4 = document.querySelector('button#bt4');
+        button4.addEventListener('click', function(){
+            const audio4 = document.querySelector('audio#audio4');
+            audio4.play();
+        })
+
+        const button5 = document.querySelector('button#bt5');
+        button5.addEventListener('click', function(){
+            const audio5 = document.querySelector('audio#audio5');
+            audio5.play();
+        })
+
+        const button6 = document.querySelector('button#bt6');
+        button6.addEventListener('click', function(){
+            const audio6 = document.querySelector('audio#audio6');
+            audio6.play();
+        })
+       
+    </script>
+</body>
+</html>
